@@ -2,6 +2,11 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .header-logo-text {
     font-size: 24px;
     color: #F9FAF8;
@@ -49,6 +54,7 @@ li {
     justify-content: center;
     padding: 50px 0;
     color: #E5E7EB;
+    flex: 1;
 }
 .overview-left {
     flex: 1;
@@ -86,6 +92,7 @@ button {
 }
 .information{
     padding: 50px 0;
+    flex: 1;
 }
 .info-container {
     display: flex;
@@ -112,6 +119,7 @@ button {
     color: #1f2937;
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 .quotation {
     font-size: 36px;
